@@ -5,9 +5,9 @@ Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
 <br/>
 Sve će biti prikazano ovdje, tra la la la la la...<br/>
 <br/>
-# MAPA I KOORDINATE<br/>
+## MAPA I KOORDINATE<br/>
 - Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)
-- https://dayz.ginfo.gg/
+[Chernarus Plus Mapa](https://dayz.ginfo.gg/)
 <br/>
 <br/>
 <br/>
