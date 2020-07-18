@@ -1,0 +1,69 @@
+{
+    "EnableMap": 1,
+    "UseMapOnMapItem": 1,
+    "CanCreateMarker": 1,
+    "ShowPlayerPosition": 1,
+    "CanCreatePartyMarkers": 1,
+    "ShowMapStats": 1,
+    "CanCreate3DMarker": 1,
+    "ShowPartyMembersMapMarkers": 1,
+    "ShowServerMarkers": 1,
+    "CanOpenMapWithKeyBinding": 1,
+    "ShowVehicleDebugMarkers": 0,
+    "ServerMarkers": [
+        {
+        "m_IsPartyMarker": 0,
+        "m_Is3DMarker": 1,
+        "m_Text": "Trader - Safe Zone",
+        "m_IconIndex": 6,
+        "m_Color": -13710223,
+        "m_Position": [
+            3703.4,
+            0,
+            5993.3
+             ]
+         },
+         {
+        "m_IsPartyMarker": 0,
+        "m_Is3DMarker": 1,
+        "m_Text": "Trader - Safe Zone",
+        "m_IconIndex": 6,
+        "m_Color": -13710223,
+        "m_Position": [
+            8369.4,
+            0,
+            5987.3
+             ]
+         },
+         {
+        "m_IsPartyMarker": 0,
+        "m_Is3DMarker": 0,
+        "m_Text": "Narko Diler - No ATM/No SF",
+        "m_IconIndex": 6,
+        "m_Color": -13710223,
+        "m_Position": [
+            6906.155762, 405.790100, 11425.975586
+             ]
+         },
+         {
+        "m_IsPartyMarker": 0,
+        "m_Is3DMarker": 0,
+        "m_Text": "Hunting trader - No ATM/No SF",
+        "m_IconIndex": 6,
+        "m_Color": -13710223,
+        "m_Position": [
+            8169.785156, 474.052460, 9112.763672
+             ]
+         },
+         {
+        "m_IsPartyMarker": 0,
+        "m_Is3DMarker": 0,
+        "m_Text": "Black Market - No ATM/No SF",
+        "m_IconIndex": 6,
+        "m_Color": -13710223,
+        "m_Position": [
+            6754.141113, 385.372925, 14037.041992
+             ]
+         }
+    ]
+}
