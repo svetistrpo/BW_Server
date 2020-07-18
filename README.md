@@ -5,7 +5,7 @@ Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
 <br/>
 Sve će biti prikazano ovdje, tra la la la la la...<br/>
 <br/>
-###### MAPA I KOORDINATE<br/>
+<span style="color:grey">###### MAPA I KOORDINATE</span>
 Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)<br/>
 https://dayz.ginfo.gg/<br/>
 <br/>
