@@ -1,2 +1,8 @@
 # BW_Server
-I'm Batman
+U PlayerLogs imaš postavke tradera, treasure, itd.
+Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.
+Ako updataš nešto onda dodaj opis // Obavezno!!
+
+Sve će biti prikazano ovdje, tra la la la la la...
+
+Pusa
