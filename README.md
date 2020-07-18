@@ -1,5 +1,5 @@
 # BW_Server
-U PlayerLogs imaš postavke tradera, treasure, itd.
+U PlayerLogs imaš postavke tradera, treasure, itd.<br/>
 Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.
 Ako updataš nešto onda dodaj opis // Obavezno!!
 
