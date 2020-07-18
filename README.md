@@ -5,7 +5,8 @@ Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
 <br/>
 Sve će biti prikazano ovdje, tra la la la la la...<br/>
 <br/>
-Možeš koristiti ovu mapu za kopiranje koordinata sad <bold>CTRL+C</bold> (kopira lokaciju miša na mapi)<br/>
+###### MAPA I KOORDINATE<br/>
+Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)<br/>
 https://dayz.ginfo.gg/<br/>
 <br/>
 Pusa<br/></p>
