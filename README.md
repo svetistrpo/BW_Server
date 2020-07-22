@@ -2,6 +2,14 @@
 <p>U PlayerLogs imaš postavke tradera, treasure, itd.<br/>
 Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.<br/>
 Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
+
+# Imenovanje Klasa
+class BW_Plakat_Osjecajno_Opis
+
+značenje:
+class Mod_Kategorija_Podkategorija_Opis-ili-Boja
+
+
 <br/>
 Sve će biti prikazano ovdje, tra la la la la la...<br/>
 <br/>
