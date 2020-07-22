@@ -4,10 +4,13 @@ Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.<br/>
 Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
 
 # Imenovanje Klasa
-class BW_Plakat_Osjecajno_Opis
 
-značenje:
-class Mod_Kategorija_Podkategorija_Opis-ili-Boja
+Primjeri:<br/>
+class BW_Hlace_Camo_HRV<br/>
+class BW_Plakat_Osjecajno_Opis<br/>
+
+Značenje:<br/>
+class Mod_Kategorija_Podkategorija_Opis-ili-Boja<br/>
 
 
 <br/>
