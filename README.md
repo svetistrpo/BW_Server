@@ -12,7 +12,7 @@ class BW_Plakat_Osjecajno_Opis
 ```
 Značenje:<br/>
 ```c++
-class Mod_Kategorija_Podkategorija_Opis-ili-Boja
+class Mod_Kategorija_Podkategorija_Opis
 ```
 
 ## Mapa i koordinate
