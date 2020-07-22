@@ -22,7 +22,7 @@ class Mod_Kategorija_Podkategorija_Opis
 
 ## Lista stvari na kojima se radi
 ### Balkan Warlords Mod
-- [x] Peć za taljenje
+- [ ] Peć za taljenje
 - [x] Crafting
 - [x] Skinovi za Aute
 - [x] Skinovi za Puške
