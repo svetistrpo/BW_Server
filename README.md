@@ -12,11 +12,6 @@ class BW_Plakat_Osjecajno_Opis<br/>
 Značenje:<br/>
 class Mod_Kategorija_Podkategorija_Opis-ili-Boja<br/>
 
-
-<br/>
-Sve će biti prikazano ovdje, tra la la la la la...<br/>
-<br/>
-
 ## Mapa i koordinate
 
 - Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)<br/>
