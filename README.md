@@ -23,11 +23,11 @@ class Mod_Kategorija_Podkategorija_Opis
 ## Lista stvari na kojima se radi
 ### Balkan Warlords Mod
 - [ ] Peć za taljenje
-- [x] Crafting
-- [x] Skinovi za Aute
-- [x] Skinovi za Puške
-- [x] Skinovi za Robu
-- [x] Skinovi za Objekte
+- [x] Crafting (Main_Coded)
+- [x] Skinovi za Aute (Main_Coded)
+- [x] Skinovi za Puške (Main_Coded)
+- [x] Skinovi za Robu (Main_Coded)
+- [x] Skinovi za Objekte (Main_Coded)
 
 ### Balkan Map
 - [ ] Balkan Map
