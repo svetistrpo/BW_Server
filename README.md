@@ -21,6 +21,8 @@ class Mod_Kategorija_Podkategorija_Opis
 [Chernarus Plus Mapa](https://dayz.ginfo.gg/)<br/>
 
 ## Lista stvari na kojima se radi
+### Balkan Warlords Mod
+- [x] Peć za taljenje
 
-- [X] 
-- [ ]
+### Balkan Map
+- [ ] Balkan Map
