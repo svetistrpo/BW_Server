@@ -6,11 +6,14 @@
 ## Imenovanje Klasa
 
 Primjeri:<br/>
-- class BW_Hlace_Camo_HRV<br/>
-- class BW_Plakat_Osjecajno_Opis<br/>
-
+```c++
+class BW_Hlace_Camo_HRV
+class BW_Plakat_Osjecajno_Opis
+```
 Značenje:<br/>
-class Mod_Kategorija_Podkategorija_Opis-ili-Boja<br/>
+```c++
+class Mod_Kategorija_Podkategorija_Opis-ili-Boja
+```
 
 ## Mapa i koordinate
 
