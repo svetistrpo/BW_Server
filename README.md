@@ -19,3 +19,8 @@ class Mod_Kategorija_Podkategorija_Opis
 
 - Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)<br/>
 [Chernarus Plus Mapa](https://dayz.ginfo.gg/)<br/>
+
+## Lista stvari na kojima se radi
+
+- [X] 
+- [ ]
