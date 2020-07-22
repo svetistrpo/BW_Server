@@ -1,7 +1,7 @@
 # BW_Devs_Repo :P
-<p>U **PlayerLogs** imaš postavke tradera, treasure, itd.</p>
+U **PlayerLogs** imaš postavke tradera, treasure, itd.<br/>
 <p>Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.</p>
-<p>Ako napraviš update za nešto onda dodaj opis // __Obavezno__!!</p>
+Ako napraviš update za nešto onda dodaj opis **Obavezno**!!<br/>
 
 ## Imenovanje Klasa
 
