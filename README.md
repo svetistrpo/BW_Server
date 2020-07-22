@@ -3,7 +3,7 @@
 Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.<br/>
 Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
 
-# Imenovanje Klasa
+## Imenovanje Klasa
 
 Primjeri:<br/>
 class BW_Hlace_Camo_HRV<br/>
@@ -16,7 +16,9 @@ class Mod_Kategorija_Podkategorija_Opis-ili-Boja<br/>
 <br/>
 Sve će biti prikazano ovdje, tra la la la la la...<br/>
 <br/>
-## MAPA I KOORDINATE<br/>
+
+## Mapa i koordinate
+
 - Možeš koristiti ovu mapu za kopiranje koordinata sad **CTRL+C** (kopira lokaciju miša na mapi)<br/>
 [Chernarus Plus Mapa](https://dayz.ginfo.gg/)<br/>
 <br/>
