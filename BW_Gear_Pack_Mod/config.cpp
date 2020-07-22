@@ -330,6 +330,7 @@ class CfgLanguages
 //	Tranzicije iz sirovog u topljeno
 // cooking metod za kovanice = 1 (Direkt slot na peći)
 // cooking metod za barove = 2 (Lonac napunjen benzinom)
+// BUG sa rukama je samo u offline modu/na serveru radi normalno
 //////////////////////////////////////////////////////////////////////
 
 class BaseMetalStageTransitions  // BaseFoodStageTransitions
