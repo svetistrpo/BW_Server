@@ -30,4 +30,9 @@ class Mod_Kategorija_Podkategorija_Opis
 - [x] Skinovi za Objekte (Main_Coded)
 
 ### Balkan Map
-- [ ] Balkan Map
+- [x] Balkan Map (20480m x 20480m)
+- [ ] Ceste
+- [ ] Šume
+- [ ] Spawn Point
+- [ ] Navmesh
+- [ ] Central Economy
