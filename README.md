@@ -1,7 +1,7 @@
 # BW_Server
 <p>U PlayerLogs imaš postavke tradera, treasure, itd.</p>
-Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.<br/>
-Ako napraviš update za nešto onda dodaj opis // Obavezno!!<br/>
+<p>Ako hoćeš update napravit ovdje onda moraš imat acc na GitHubu.</p>
+<p>Ako napraviš update za nešto onda dodaj opis // **Obavezno!!</p>
 
 ## Imenovanje Klasa
 
