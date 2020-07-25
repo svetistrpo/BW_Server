@@ -4437,38 +4437,7 @@ class cfgVehicles
 
 	///////////////////////////////  Šatori / Large tent
 
-	class BW_LargeTent : LargeTent
-	{
-		scope = 2;
-		displayName = "Šator Vojni";
-		descriptionShort = "Šator Vojni 1000 mjesta za stvari / Military tent with 1000 slots";
-		model = "\DZ\gear\camping\LargeTent.p3d";
-		hiddenSelections[] =
-		{
-			"xlights_glass_r",
-			"xlights_glass_g",
-			"xlights_glass_b",
-			"xlights_glass_y"
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
-		};
-		hiddenSelectionsMaterials[] = {
-			"dz\gear\camping\data\tent_door.rvmat",
-			"dz\gear\camping\data\tent_door.rvmat"
-		};
-		itemSize[] = { 10,3 };
-		itemsCargoSize[] = { 10,100 };
-		repairableWithKits[] = { 5,2 };
-		repairCosts[] = { 30,25 };
-		
-	};
-	class BW_LargeTentPlacing : BW_LargeTent
-	{
-	};
-	class BW_LargeTent_Camo : BW_LargeTent
+	class BW_LargeTent_Camo : LargeTent
 	{
 		displayName = "Šator Vojni";
 		descriptionShort = "Šator Vojni - 1000 mjesta za stvari";
@@ -4483,7 +4452,7 @@ class cfgVehicles
 			"dz\gear\camping\data\tent_door.rvmat"
 		};
 	};
-	class BW_LargeTent_CamoPlacing : BW_LargeTent_Camo
+	class BW_LargeTent_CamoPlacing : LargeTentPlacing
 	{	
 	};
 	//////////////////////////////////////////////////////////////////
