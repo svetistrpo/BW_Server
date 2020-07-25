@@ -4445,11 +4445,14 @@ class cfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
+			"dz\gear\camping\data\bagpack_co.paa"
 		};
-		hiddenSelectionsMaterials[] = {
+		hiddenSelectionsMaterials[] =
+		{
 			"dz\gear\camping\data\tent_door.rvmat",
-			"dz\gear\camping\data\tent_door.rvmat"
+			"dz\gear\camping\data\tent_door.rvmat",
+			"dz\gear\camping\data\bagpack.rvmat"
 		};
 	};
 	class BW_LargeTent_CamoPlacing : LargeTentPlacing
