@@ -1243,10 +1243,6 @@ class cfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] =
 		{
-			"",
-			"",
-			"",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Hoodie_FU_co.paa",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Hoodie_FU_co.paa",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Hoodie_FU_co.paa",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Hoodie_FU_co.paa"
