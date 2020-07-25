@@ -521,6 +521,7 @@ class cfgVehicles
 	class HouseNoDestruct;
 	class Static;
 	class LargeTent;
+	class LargeTentPlacing;
 
 	// Vozila
 	class CarScript;
@@ -4434,16 +4435,14 @@ class cfgVehicles
 		};
 	};
 
+	///////////////////////////////  Šatori / Large tent
+
 	class BW_LargeTent : LargeTent
 	{
 		scope = 2;
 		displayName = "Šator Vojni";
 		descriptionShort = "Šator Vojni 1000 mjesta za stvari / Military tent with 1000 slots";
 		model = "\DZ\gear\camping\LargeTent.p3d";
-		bounding = "BSphere";
-		overrideDrawArea = "3.0";
-		forceFarBubble = "true";
-		slopeTolerance = 0.34999999;
 		hiddenSelections[] =
 		{
 			"xlights_glass_r",
@@ -4454,391 +4453,20 @@ class cfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
 		};
-		hiddenSelectionsMaterials[] = {};
-		openable = 0;
-		carveNavmesh = 1;
-		weight = 100;
+		hiddenSelectionsMaterials[] = {
+			"dz\gear\camping\data\tent_door.rvmat",
+			"dz\gear\camping\data\tent_door.rvmat"
+		};
 		itemSize[] = { 10,3 };
 		itemsCargoSize[] = { 10,100 };
-		itemBehaviour = 2;
-		lootCategory = "Tents";
-		placement = "ForceSlopeOnTerrain";
-		physLayer = "item_large";
 		repairableWithKits[] = { 5,2 };
 		repairCosts[] = { 30,25 };
-		attachments[] =
-		{
-			"CamoNet",
-			"Lights"
-		};
-		SingleUseActions[] = { 527 };
-		InteractActions[] = { 1021,1022 };
-		ContinuousActions[] = { 231 };
-		minPlacingDist = 10;
-		rotationFlags = 2;
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints = 100;
-					healthLevels[] =
-					{
-
-						{
-							1,
-
-							{
-								"DZ\gear\camping\data\large_tent.rvmat"
-							}
-						},
-
-						{
-							0.69999999,
-
-							{
-								"DZ\gear\camping\data\large_tent.rvmat"
-							}
-						},
-
-						{
-							0.5,
-
-							{
-								"DZ\gear\camping\data\large_tent_damage.rvmat"
-							}
-						},
-
-						{
-							0.30000001,
-
-							{
-								"DZ\gear\camping\data\large_tent_damage.rvmat"
-							}
-						},
-
-						{
-							0,
-
-							{
-								"DZ\gear\camping\data\large_tent_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-			class GlobalArmor
-			{
-				class Projectile
-				{
-					class Health
-					{
-						damage = 0;
-					};
-					class Blood
-					{
-						damage = 0;
-					};
-					class Shock
-					{
-						damage = 0;
-					};
-				};
-			};
-		};
-		class PointLights
-		{
-			class PointLight
-			{
-				color[] = { 1,1,1,0.050000001 };
-				ambient[] = { 0.0099999998,0.0099999998,0.0099999998,0.0099999998 };
-				position = "light";
-				hitpoint = "bulb";
-				selection = "bulb";
-				size = 0;
-				radius = 5;
-				brightness = 0.001;
-				dayLight = 1;
-				heatHazeRadius = 0;
-				heatHazePower = 0;
-				fireEffect = 0;
-				fireEffectOctaves = 0;
-				fireEffectPersistence = 0;
-				fireEffectFract = 0;
-			};
-		};
-		class GUIInventoryAttachmentsProps
-		{
-			class CamoNet
-			{
-				name = "$STR_attachment_camonet0";
-				description = "";
-				attachmentSlots[] =
-				{
-					"CamoNet"
-				};
-				icon = "cat_camonet";
-				view_index = 1;
-			};
-			class XmasLights
-			{
-				name = "$STR_attachment_XmasLights0";
-				description = "";
-				attachmentSlots[] =
-				{
-					"Lights"
-				};
-				icon = "cat_christmaslights";
-				view_index = 1;
-			};
-		};
-		class AnimationSources
-		{
-			class Body
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class CamoNet
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Inventory
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class EntranceO
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class EntranceC
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window1O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window2O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window3O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window4O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window5O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window6O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window7O
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window1C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window2C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window3C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window4C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window5C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window6C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Window7C
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-			class Xlights
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Xlights_glass_r
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Xlights_glass_g
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Xlights_glass_b
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Xlights_glass_y
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Cord_folded
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Cord_plugged
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-			class Pack
-			{
-				source = "user";
-				initPhase = 1;
-				animPeriod = 0.0099999998;
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class movement_walk
-				{
-					soundSet = "mediumtent_movement_walk_SoundSet";
-					id = 1;
-				};
-				class movement_run
-				{
-					soundSet = "mediumtent_movement_run_SoundSet";
-					id = 3;
-				};
-				class movement_sprint
-				{
-					soundSet = "mediumtent_movement_sprint_SoundSet";
-					id = 5;
-				};
-				class pickUpItem_Light
-				{
-					soundSet = "pickUpTentLight_SoundSet";
-					id = 796;
-				};
-				class pickUpItem
-				{
-					soundSet = "pickUpTent_SoundSet";
-					id = 797;
-				};
-				class mediumtent_drop
-				{
-					soundset = "mediumtent_drop_SoundSet";
-					id = 898;
-				};
-			};
-		};
+		
 	};
 	class BW_LargeTentPlacing : BW_LargeTent
 	{
-		model = "\DZ\gear\camping\LargeTentPlacing.p3d";
-		storageCategory = 10;
-		hiddenSelections[] =
-		{
-			"placing"
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"dz\gear\camping\data\large_tent_co.tga"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"dz\gear\camping\data\large_tent.rvmat"
-		};
-		hologramMaterial = "large_tent";
-		hologramMaterialPath = "dz\gear\camping\data";
-		class AnimationSources
-		{
-			class Placing
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-		};
-	};
-	class BW_LargeTentClutterCutter : Static
-	{
-		scope = 1;
-		model = "\DZ\gear\camping\LargeTentClutterCutter.p3d";
-		displayName = "$STR_CfgVehicles_ClutterCutter6x60";
-		icon = "";
-		simulation = "thing";
-		nameSound = "";
-		vehicleClass = "Misc";
-		mapSize = 0.69999999;
-		accuracy = 0.2;
-		destrType = "DestructNo";
 	};
 	class BW_LargeTent_Camo : BW_LargeTent
 	{
@@ -4850,47 +4478,13 @@ class cfgVehicles
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
 		};
+		hiddenSelectionsMaterials[] = {
+			"dz\gear\camping\data\tent_door.rvmat",
+			"dz\gear\camping\data\tent_door.rvmat"
+		};
 	};
 	class BW_LargeTent_CamoPlacing : BW_LargeTent_Camo
-	{
-		model = "\DZ\gear\camping\LargeTentPlacing.p3d";
-		storageCategory = 10;
-		hiddenSelections[] =
-		{
-			"placing"
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"dz\gear\camping\data\large_tent_co.tga"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"dz\gear\camping\data\large_tent.rvmat"
-		};
-		hologramMaterial = "large_tent";
-		hologramMaterialPath = "dz\gear\camping\data";
-		class AnimationSources
-		{
-			class Placing
-			{
-				source = "user";
-				animPeriod = 0.0099999998;
-				initPhase = 1;
-			};
-		};
-	};
-	class BW_LargeTent_CamoClutterCutter : Static
-	{
-		scope = 1;
-		model = "\DZ\gear\camping\LargeTentClutterCutter.p3d";
-		displayName = "$STR_CfgVehicles_ClutterCutter6x60";
-		icon = "";
-		simulation = "thing";
-		nameSound = "";
-		vehicleClass = "Misc";
-		mapSize = 0.69999999;
-		accuracy = 0.2;
-		destrType = "DestructNo";
+	{	
 	};
 	//////////////////////////////////////////////////////////////////
 	// Vozila
