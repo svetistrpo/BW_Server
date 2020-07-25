@@ -1663,7 +1663,7 @@ class cfgVehicles
 		descriptionShort = "Kiseli krastavci / Pickles";
 		model = "\dz\gear\food\Marmalade.p3d";
 		weight = 0;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		varQuantityInit = 340;
 		varQuantityMin = 0;
 		varQuantityMax = 340;
@@ -1781,7 +1781,7 @@ class cfgVehicles
 		descriptionShort = "Majoneza / Egg mayo .";
 		model = "\dz\gear\food\Marmalade.p3d";
 		weight = 0;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		varQuantityInit = 340;
 		varQuantityMin = 0;
 		varQuantityMax = 340;
@@ -1892,14 +1892,14 @@ class cfgVehicles
 			};
 		};
 	};
-	class BW_Votka : Bottle_Base
+	class BW_Vodka : Bottle_Base
 	{
 		scope = 0;
 		displayName = "Votka";
 		descriptionShort = "Votka Ruska, na crno uvezeno, pravi otrov / Russian killer vodka - Do not drink and drive";
 		model = "\dz\gear\drinks\VodkaBottles.p3d";
 		weight = 50;
-		itemSize[] = { 1,2 };
+		itemSize[] = { 1,3 };
 		SingleUseActions[] =
 		{
 			507,
@@ -2029,7 +2029,7 @@ class cfgVehicles
 		descriptionShort = "$STR_CfgVehicles_WaterBottle1";
 		model = "\dz\gear\drinks\WaterBottle.p3d";
 		weight = 50;
-		itemSize[] = { 1,2 };
+		itemSize[] = { 1,3 };
 		SingleUseActions[] =
 		{
 			507,
@@ -2782,6 +2782,38 @@ class cfgVehicles
 			};
 		};
 	};
+	class BW_Lasko : Black_Soda_ColorBase
+	{
+		scope = 2;
+		displayName = "Laško Pivo";
+		descriptionShort = "Laško Pivo / Laško beer, bottled happiness";
+		weight = 0;
+		hiddenSelectionsTextures[] =
+		{
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Pice\BW_Lasko_co.paa"
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class SodaCan_in_B
+				{
+					soundSet = "SodaCan_in_B_SoundSet";
+					id = 202;
+				};
+				class WellPond_loop
+				{
+					soundSet = "WellPond_loop_SoundSet";
+					id = 209;
+				};
+				class WellBottle_loop
+				{
+					soundSet = "WellBottle_loop_SoundSet";
+					id = 210;
+				};
+			};
+		};
+	};
 	/////////////////////////////////////////////////////////
 	//Hrana - BW_spageti_co
 	////////////////////////////////////////////////////////
@@ -3076,7 +3108,7 @@ class cfgVehicles
 		SingleUseActions[] = {};
 		ContinuousActions[] = {};
 		rotationFlags = 63;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		weight = 0;
 		varQuantityInit = 0;
 		varQuantityMin = 0;
@@ -3325,7 +3357,7 @@ class cfgVehicles
 		SingleUseActions[] = {};
 		ContinuousActions[] = {};
 		rotationFlags = 63;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		weight = 0;
 		varQuantityInit = 0;
 		varQuantityMin = 0;
@@ -3575,7 +3607,7 @@ class cfgVehicles
 		SingleUseActions[] = {};
 		ContinuousActions[] = {};
 		rotationFlags = 63;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		weight = 0;
 		varQuantityInit = 0;
 		varQuantityMin = 0;
@@ -3824,7 +3856,7 @@ class cfgVehicles
 		SingleUseActions[] = {};
 		ContinuousActions[] = {};
 		rotationFlags = 63;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		weight = 0;
 		varQuantityInit = 0;
 		varQuantityMin = 0;
@@ -4074,7 +4106,7 @@ class cfgVehicles
 		SingleUseActions[] = {};
 		ContinuousActions[] = {};
 		rotationFlags = 63;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 2,2 };
 		weight = 0;
 		varQuantityInit = 0;
 		varQuantityMin = 0;
