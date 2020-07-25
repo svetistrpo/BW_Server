@@ -4446,13 +4446,11 @@ class cfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_Door_co.paa",
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_Door_co.paa",
 			"",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			"dz\gear\camping\data\tent_door.rvmat",
 			"dz\gear\camping\data\tent_door.rvmat",
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.rvmat",
 			"dz\gear\camping\data\bagpack.rvmat"
