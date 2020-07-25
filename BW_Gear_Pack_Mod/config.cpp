@@ -2870,6 +2870,38 @@ class cfgVehicles
 			};
 		};
 	};
+	class BW_Jelen : Black_Soda_ColorBase
+	{
+		scope = 2;
+		displayName = "Jelen Pivo";
+		descriptionShort = "Jelen Pivo / Jelen beer, bottled happiness";
+		weight = 0;
+		hiddenSelectionsTextures[] =
+		{
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Pice\BW_Jelen_co.paa"
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class SodaCan_in_B
+				{
+					soundSet = "SodaCan_in_B_SoundSet";
+					id = 202;
+				};
+				class WellPond_loop
+				{
+					soundSet = "WellPond_loop_SoundSet";
+					id = 209;
+				};
+				class WellBottle_loop
+				{
+					soundSet = "WellBottle_loop_SoundSet";
+					id = 210;
+				};
+			};
+		};
+	};
 	/////////////////////////////////////////////////////////
 	//Hrana - BW_spageti_co
 	////////////////////////////////////////////////////////
