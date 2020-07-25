@@ -812,7 +812,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "BW Plakat 2";
 		descriptionShort = "Balkan Warlords";
-		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_Balkan_Warlords.paa" };
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_ADZ.paa" };
 	};
 	class BW_Plakat_finemrtvedjevojke : Billboard_Custom_Color
 	{
