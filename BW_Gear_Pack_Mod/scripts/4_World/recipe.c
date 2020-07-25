@@ -8,7 +8,7 @@ modded class PluginRecipesManagerBase
 		RegisterRecipe(new CraftKruskovac);
 		//Puške
 		RegisterRecipe(new CraftSpiderWebUMP);
-		RegisterRecipe(new CraftStanagCoupled);
+		//RegisterRecipe(new CraftStanagCoupled);
 		//RegisterRecipe(new CraftM4White);
 		//RegisterRecipe(new CraftM4Black);
 		//RegisterRecipe(new CraftM4Camo);
