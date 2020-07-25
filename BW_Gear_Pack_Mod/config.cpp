@@ -806,6 +806,62 @@ class cfgVehicles
 		descriptionShort = "Balkan Warlords";
 		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_Balkan_Warlords.paa" };
 	};
+	class BW_Plakat_ADZ : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_Balkan_Warlords.paa" };
+	};
+	class BW_Plakat_finemrtvedjevojke : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_finemrtvedjevojke.paa" };
+	};
+	class BW_Plakat_IvicaTodoricWanted : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_IvicaTodoricWanted.paa" };
+	};
+	class BW_Plakat_jugo55gtl : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_jugo55gtl.paa" };
+	};
+	class BW_Plakat_osjecko : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_osjecko.paa" };
+	};
+	class BW_Plakat_Politicari_i_pelene : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_Politicari_i_pelene.paa" };
+	};
+	class BW_Plakat_snaga_se_oseca3 : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_snaga_se_oseca3.paa" };
+	};
+	class BW_Plakat_zastava101 : Billboard_Custom_Color
+	{
+		scope = 2;
+		displayName = "BW Plakat 2";
+		descriptionShort = "Balkan Warlords";
+		hiddenSelectionsTextures[] = { "BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Plakati\BW_Plakat_zastava101.paa" };
+	};
 	////////////////////////////////////////////////////////////////////////
 	//Roba
 	///////////////////////////////////////////////////////////////////////
