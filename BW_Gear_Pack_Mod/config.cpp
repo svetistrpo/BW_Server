@@ -4441,18 +4441,20 @@ class cfgVehicles
 	{
 		displayName = "Šator Vojni";
 		descriptionShort = "Šator Vojni - 700 mjesta za stvari";
-		model = "\DZ\gear\camping\LargeTent.p3d";  // +
+		// model = "\DZ\gear\camping\LargeTent.p3d";  // +
 		scope = 2;
 		hiddenSelectionsTextures[] =
 		{
-			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa",
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_Door_co.paa",
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_Door_co.paa",
 			"",
-			"dz\gear\camping\data\bagpack_co.paa"
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
 			"dz\gear\camping\data\tent_door.rvmat",
 			"dz\gear\camping\data\tent_door.rvmat",
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_LargeTent_co.rvmat",
 			"dz\gear\camping\data\bagpack.rvmat"
 		};
 		itemSize[] = { 10,4 };  // +
