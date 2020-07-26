@@ -368,54 +368,27 @@
 		
 <Trader> HS Produkt
 	<Category> Metci
-		Ammo_380,				1,		1,		1
-		Ammo_9x19,				1,		1,		1
-		Ammo_22,				1,		1,		1
-		Ammo_45ACP,				1,		1,		1
-		Ammo_12gaPellets,		1,		3,		1
-		Ammo_12gaSlug,			1,		4,		2
-		Ammo_9x39,				1,		40,		2
-		Ammo_9x39AP,			1,		50,		3
-		Ammo_308Win,			1,		50,		3
-		Ammo_545x39,			1,		40,		3
-		Ammo_556x45,			1,		40,		3
-		Ammo_762x39,			1,		40,		3
-		Ammo_762x54,			1,		60,		6		
-		Ammo_556x45Tracer,		1,		50,		5
-		Ammo_545x39Tracer,		1,		50,		5
-		Ammo_308WinTracer,		1,		60,		5
-		Ammo_762x39Tracer,		1,		70,		5
-		Ammo_762x54Tracer,		1,		70,		12
-		Ammo_408Chey,			1,		1000,	5	
-		Ammo_338,				1,		1000,	5	
-		Ammo_12GaBB,			1,		10,	5	
-
-		// When changing Prices here keep in Mind that Players
-		// can just unpack the Ammoboxes and sell the Ammo seperatly!
-		// Originally the Ammoboxes buying Price is 20% less than
-		// buying single Ammo. The Selling Price is the same as
-		// selling the Ammo seperately.
-		AmmoBox_380_35rnd,		*,				-1,		10
-		AmmoBox_9x19_25rnd,		*,				-1,		10
-		AmmoBox_45ACP_25rnd,	*,				-1,		10
-		AmmoBox_22_50Rnd,		*,				-1,		20
-		AmmoBox_00buck_10rnd,	*,				-1,		10
-		AmmoBox_12gaSlug_10Rnd,	*,				-1,		20
-		AmmoBox_9x39_20Rnd,		*,				-1,		20
-		AmmoBox_9x39AP_20Rnd,	*,				-1,		60
-		AmmoBox_308Win_20Rnd,	*,				-1,		60
-		AmmoBox_545x39_20Rnd,	*,				-1,		60
-		AmmoBox_556x45_20Rnd,	*,				-1,		60
-		AmmoBox_762x39_20Rnd,	*,				-1,		60
-		AmmoBox_762x54_20Rnd,	*,				-1,		120		
-		AmmoBox_308WinTracer_20Rnd,		*,		-1,		80
-		AmmoBox_545x39Tracer_20Rnd,		*,		-1, 	80
-		AmmoBox_556x45Tracer_20Rnd,		*,		-1,		80
-		AmmoBox_762x39Tracer_20Rnd,		*,		-1,		80
-		AmmoBox_762x54Tracer_20Rnd,		*,		-1,		200
+		AmmoBox_380_35rnd,		*,				200,		10
+		AmmoBox_9x19_25rnd,		*,				200,		10
+		AmmoBox_45ACP_25rnd,	*,				200,		10
+		AmmoBox_22_50Rnd,		*,				200,		20
+		AmmoBox_00buck_10rnd,	*,				200,		10
+		AmmoBox_12gaSlug_10Rnd,	*,				200,		20
+		AmmoBox_9x39_20Rnd,		*,				1000,		20
+		AmmoBox_9x39AP_20Rnd,	*,				1000,		60
+		AmmoBox_308Win_20Rnd,	*,				2000,		60
+		AmmoBox_545x39_20Rnd,	*,				1000,		60
+		AmmoBox_556x45_20Rnd,	*,				1000,		60
+		AmmoBox_762x39_20Rnd,	*,				1000,		60
+		AmmoBox_762x54_20Rnd,	*,				2000,		120		
+		AmmoBox_308WinTracer_20Rnd,		*,		2000,		80
+		AmmoBox_545x39Tracer_20Rnd,		*,		1000, 	80
+		AmmoBox_556x45Tracer_20Rnd,		*,		1000,		80
+		AmmoBox_762x39Tracer_20Rnd,		*,		1000,		80
+		AmmoBox_762x54Tracer_20Rnd,		*,		2000,		200
 		=EXPANSION AMMO=,				*,		-1,		-1
-		AmmoBox_Expansion_46x30_25rnd,			*,		-1,		200
-		AmmoBox_Expansion_338_15rnd,			*,		-1,		2000
+		AmmoBox_Expansion_46x30_25rnd,			*,		2000,		200
+		AmmoBox_Expansion_338_15rnd,			*,		7000,		2000
 		ExpansionAmmoRPG,						*,		-1,		2000
 		ExpansionAmmoLAW,						*,		-1,		2000
 		ExpansionAmmoFlare,						*,		-1,		50
@@ -433,12 +406,11 @@
 		Ammo_Expansion_M203_Sticky_Smoke_Purple,		*,		-1,		200
 		Ammo_Expansion_M203_Sticky_Smoke_Teargas,		*,		-1,		500
 		Ammo_Expansion_M203_HE,							*,		-1,		300
-		Ammo_Expansion_46x30,							*,		-1,		50
-		Ammo_Expansion_338,								*,		-1,		100
-		Expansion_Ammo_ArrowBolt,						*,		-1,		50
-		AmmoBox_408Chey,				*,		-1,	3000	
-		AmmoBox_12gaBB,					*,		-1,	100	
-		AmmoBox_338,					*,		-1,	2000
+		Ammo_Expansion_46x30,							*,		2000,		50
+		Ammo_Expansion_338,								*,		9000,		100
+		Expansion_Ammo_ArrowBolt,						*,		500,		50
+		AmmoBox_408Chey,				*,		10000,	3000	
+		AmmoBox_338,					*,		9000,	2000
 		
 	<Category> Magazini
 		Mag_IJ70_8Rnd,			M,			-1,		15
