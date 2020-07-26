@@ -211,7 +211,56 @@
 	Sedan_02_Wheel
 	Sedan_02_Wheel
 	Sedan_02_Wheel		
-	
-	
+
+<VehicleParts> CrSk_Land_Rover_RR_Sport_12
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	RR_Sport_12_sver_1_1
+	RR_Sport_12_sver_1_2
+	RR_Sport_12_sver_2_1
+	RR_Sport_12_sver_2_2
+	RR_Sport_12_kapot
+	RR_Sport_12_bagazhnik
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso	
+
+<VehicleParts> CrSk_Land_Rover_RR_Sport_12_Black
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	RR_Sport_12_sver_1_1_Black
+	RR_Sport_12_sver_1_2_Black
+	RR_Sport_12_sver_2_1_Black
+	RR_Sport_12_sver_2_2_Black
+	RR_Sport_12_kapot_Black
+	RR_Sport_12_bagazhnik_Black
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+
+<VehicleParts> CrSk_Land_Rover_RR_Sport_12_MVP
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	RR_Sport_12_sver_1_1_Black
+	RR_Sport_12_sver_1_2_Black
+	RR_Sport_12_sver_2_1_Black
+	RR_Sport_12_sver_2_2_Black
+	RR_Sport_12_kapot_MVP
+	RR_Sport_12_bagazhnik_MVP
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
+	RR_Sport_12_koleso
 //<OpenFile> FileName.txt			// Links to another File; Must be right above <FileEnd>!
 <FileEnd>							// This has to be on the End of this File and is very importand!
