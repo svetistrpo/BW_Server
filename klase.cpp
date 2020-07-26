@@ -10,6 +10,8 @@ BW_Osjecajno
 BW_Sarajevsko
 BW_Hell
 BW_Kruskovac
+BW_Lasko
+BW_Jelen
 
 
 // Jela / Food
@@ -19,7 +21,6 @@ BW_Kompot
 BW_Spageti
 BW_Sarma
 BW_Paprika
-// NOVO
 BW_Cokolino_co
 BW_Cedevita_co
 
@@ -34,6 +35,9 @@ BW_Plakat_Campfire
 
 // Bankomat
 BW_Bankomat
+
+// Tent
+BW_LargeTent_Camo
 
 // Torbe / Backpacks
 BW_Alice_Torba
