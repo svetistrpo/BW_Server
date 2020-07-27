@@ -2649,7 +2649,7 @@ class cfgVehicles
 	{
 		model = "\dz\gear\drinks\SodaCan.p3d";
 		stackedRandom = 0;
-		itemSize[] = { 1,1 };
+		itemSize[] = { 1,2 };
 		SingleUseActions[] = { 507,505,544 };
 		ContinuousActions[] = { 108,215 };
 		InteractActions[] = {};
