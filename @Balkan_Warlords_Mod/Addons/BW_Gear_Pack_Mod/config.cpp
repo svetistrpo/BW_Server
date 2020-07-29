@@ -347,21 +347,21 @@ class BaseMetalStageTransitions  // BaseFoodStageTransitions
 			transition_to = 3;
 			cooking_method = 2;
 		};
-	//		class ToDried
-	//		{
-	//			transition_to = 4;
-	//			cooking_method = 3;
-	//		};
-	//		class ToBurned
-	//		{
-	//			transition_to = 5;
-	//			cooking_method = 3;
-	//		};
-	//		class ToRotten
-	//		{
-	//			transition_to = 6;
-	//			cooking_method = 4;
-	//		};
+		//		class ToDried
+		//		{
+		//			transition_to = 4;
+		//			cooking_method = 3;
+		//		};
+		//		class ToBurned
+		//		{
+		//			transition_to = 5;
+		//			cooking_method = 3;
+		//		};
+		//		class ToRotten
+		//		{
+		//			transition_to = 6;
+		//			cooking_method = 4;
+		//		};
 	};
 
 
@@ -554,60 +554,60 @@ class cfgVehicles
 	class CarDoor;
 	class DC_BankingATM;
 	class BarrelHoles_ColorBase;
-		
-///////////////////////////////////////////////////////////////
-// *********Barrel za kraftanje/topljenje zlata***********
-//
-//		7x7 inventory size
-//		10x30 (300) slotova
-//		Weight sa 10000 smanjena na 1000
-//////////////////////////////////////////////////////////////
-		class BW_Topionica : BarrelHoles_ColorBase
-			{
-			displayName = "Peć / Topionica";
-			descriptionShort = "Peć / Topionica - Peć za topljenje plemenitih metala | ENG: Furnace";
-			lootCategory = "Crafted";
-			itemSize[] = { 7,7 };
-			weight = 10;
 
-			class Cargo
-			{
-				itemsCargoSize[] = { 10,30 };
-				openable = 0;
-				allowOwnedCargoManipulation = 1;
-			};
-		
-		};
+	///////////////////////////////////////////////////////////////
+	// *********Barrel za kraftanje/topljenje zlata***********
+	//
+	//		7x7 inventory size
+	//		10x30 (300) slotova
+	//		Weight sa 10000 smanjena na 1000
+	//////////////////////////////////////////////////////////////
+	class BW_Topionica : BarrelHoles_ColorBase
+	{
+		displayName = "Peć / Topionica";
+		descriptionShort = "Peć / Topionica - Peć za topljenje plemenitih metala | ENG: Furnace";
+		lootCategory = "Crafted";
+		itemSize[] = { 7,7 };
+		weight = 10;
 
-		class BW_Pec : BW_Topionica
+		class Cargo
 		{
-			scope = 2;
-			hiddenSelectionsTextures[] =
-			{
-				"\dz\gear\cooking\data\stoneground_co.paa",
-				"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Objekti\BW_Pec_co.paa",
-				"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Objekti\BW_Pec_co.paa"
-			};
-		};
-///////////////////////////////////////////////////////////////
-// *********Barrel za kraftanje/topljenje zlata kraj*********
-//////////////////////////////////////////////////////////////
-	
-///////////////////////////////////////////////////////////////
-// Bankomat - @Banking
-//////////////////////////////////////////////////////////////
-		class BW_Bankomat : DC_BankingATM
-		{
-			scope = 1;
-			hiddenSelectionsTextures[] =
-			{
-				"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Bankomat_co.paa"
-			};
+			itemsCargoSize[] = { 10,30 };
+			openable = 0;
+			allowOwnedCargoManipulation = 1;
 		};
 
-//////////////////////////////////////////////////////////////////
-// Novo
-/////////////////////////////////////////////////////////////////
+	};
+
+	class BW_Pec : BW_Topionica
+	{
+		scope = 2;
+		hiddenSelectionsTextures[] =
+		{
+			"\dz\gear\cooking\data\stoneground_co.paa",
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Objekti\BW_Pec_co.paa",
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Objekti\BW_Pec_co.paa"
+		};
+	};
+	///////////////////////////////////////////////////////////////
+	// *********Barrel za kraftanje/topljenje zlata kraj*********
+	//////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////
+	// Bankomat - @Banking
+	//////////////////////////////////////////////////////////////
+	class BW_Bankomat : DC_BankingATM
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] =
+		{
+			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\BW_Bankomat_co.paa"
+		};
+	};
+
+	//////////////////////////////////////////////////////////////////
+	// Novo
+	/////////////////////////////////////////////////////////////////
 	class BW_Cedevita_co : Rice
 	{
 		scope = 2;
@@ -635,9 +635,9 @@ class cfgVehicles
 			"BW_Gear_Pack_Mod\Data\BalkanWarlordsMod\Hrana\BW_Cedevita_co.paa"
 		};
 	};
-//////////////////////////////////////////////////////////////////
-// Kacige
-/////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////
+	// Kacige
+	/////////////////////////////////////////////////////////////////
 	class BW_Kaciga_BiH : Mich2001Helmet
 	{
 		displayName = "Kaciga BiH / Helmet BIH";
@@ -2649,7 +2649,7 @@ class cfgVehicles
 	{
 		model = "\dz\gear\drinks\SodaCan.p3d";
 		stackedRandom = 0;
-		itemSize[] = { 1,2 };
+		itemSize[] = { 1,1 };
 		SingleUseActions[] = { 507,505,544 };
 		ContinuousActions[] = { 108,215 };
 		InteractActions[] = {};
@@ -4459,7 +4459,7 @@ class cfgVehicles
 		itemsCargoSize[] = { 10,70 }; // +
 	};
 	class BW_LargeTent_CamoPlacing : LargeTentPlacing
-	{	
+	{
 	};
 	//////////////////////////////////////////////////////////////////
 	// Vozila

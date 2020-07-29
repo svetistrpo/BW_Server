@@ -10,7 +10,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm0",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm0",
 				1
 			}
 		};
@@ -23,7 +23,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm1",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm1",
 				2
 			}
 		};
@@ -36,7 +36,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Offload_Rpm1",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Offload_Rpm1",
 				2
 			}
 		};
@@ -49,7 +49,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm2",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm2",
 				2
 			}
 		};
@@ -62,7 +62,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Offload_Rpm2",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Offload_Rpm2",
 				2
 			}
 		};
@@ -75,7 +75,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm3",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm3",
 				2
 			}
 		};
@@ -88,7 +88,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Offload_Rpm3",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Offload_Rpm3",
 				2
 			}
 		};
@@ -101,7 +101,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm4",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm4",
 				2
 			}
 		};
@@ -114,7 +114,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Offload_Rpm4",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Offload_Rpm4",
 				2
 			}
 		};
@@ -127,7 +127,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Rpm5",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Rpm5",
 				2
 			}
 		};
@@ -140,7 +140,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Offload_Rpm5",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Offload_Rpm5",
 				2
 			}
 		};
@@ -153,7 +153,7 @@ class CfgSoundShaders
 		{
 			
 			{
-				"CrSk_Land_Rover_RR_Sport_12\sounds\european_v8_Engine_Ext_Broken",
+				"BW_Gear_Pack_Mod\sounds\european_v8_Engine_Ext_Broken",
 				2
 			}
 		};
@@ -269,39 +269,7 @@ class CfgSoundSets
 		volumeFactor=1;
 	};
 };
-class CfgMods
-{
-	class CrSk_Land_Rover_RR_Sport_12
-	{
-		dir="CrSk_Land_Rover_RR_Sport_12";
-		picture="";
-		action="";
-		hideName=1;
-		hidePicture=1;
-		name="CrSk_Land_Rover_RR_Sport_12";
-		credits="CrushingSkirmish";
-		author="CrushingSkirmish";
-		authorID="0";
-		version=1;
-		extra=0;
-		type="mod";
-		dependencies[]=
-		{
-			"World"
-		};
-		class defs
-		{
-			class worldScriptModule
-			{
-				value="";
-				files[]=
-				{
-					"CrSk_Land_Rover_RR_Sport_12/scripts/CrSk_Land_Rover_RR_Sport_12"
-				};
-			};
-		};
-	};
-};
+
 class CfgPatches
 {
 	class CrSk_Land_Rover_RR_Sport_12
@@ -852,7 +820,7 @@ class CfgVehicles
 	class RR_Sport_12_koleso: CarWheel
 	{
 		scope=2;
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_koleso.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_koleso.p3d";
 		displayName="Toèak";
 		descriptionShort="Toèak za Land Rover Sport '12";
 		itemSize[]={6,6};
@@ -887,8 +855,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shina_michelin.rvmat"
+								"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+								"BW_Gear_Pack_Mod\data\shina_michelin.rvmat"
 							}
 						},
 						
@@ -896,8 +864,8 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shina_michelin.rvmat"
+								"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+								"BW_Gear_Pack_Mod\data\shina_michelin.rvmat"
 							}
 						},
 						
@@ -905,8 +873,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\disk_damage.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shina_michelin_damage.rvmat"
+								"BW_Gear_Pack_Mod\data\disk_damage.rvmat",
+								"BW_Gear_Pack_Mod\data\shina_michelin_damage.rvmat"
 							}
 						},
 						
@@ -914,8 +882,8 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\disk_damage.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shina_michelin_damage.rvmat"
+								"BW_Gear_Pack_Mod\data\disk_damage.rvmat",
+								"BW_Gear_Pack_Mod\data\shina_michelin_damage.rvmat"
 							}
 						},
 						
@@ -923,8 +891,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\disk_destruct.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shina_michelin_destruct.rvmat"
+								"BW_Gear_Pack_Mod\data\disk_destruct.rvmat",
+								"BW_Gear_Pack_Mod\data\shina_michelin_destruct.rvmat"
 							}
 						}
 					};
@@ -934,7 +902,7 @@ class CfgVehicles
 	};
 	class RR_Sport_12_koleso_Ruined: RR_Sport_12_koleso
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_koleso_Ruined.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_koleso_Ruined.p3d";
 		radius=0.32499999;
 		width=0.2;
 		tyreRollResistance=1;
@@ -947,7 +915,7 @@ class CfgVehicles
 		scope=2;
 		displayName="Prednja Lijeva Vrata";
 		descriptionShort="Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_1_1.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_1_1.p3d";
 		weight=15000;
 		itemSize[]={10,10};
 		itemBehaviour=0;
@@ -961,8 +929,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -982,8 +950,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_int.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_int.rvmat"
 								}
 							},
 							
@@ -996,8 +964,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat"
 								}
 							},
 							
@@ -1005,8 +973,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat"
 								}
 							},
 							
@@ -1029,8 +997,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1043,8 +1011,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1057,8 +1025,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -1071,38 +1039,38 @@ class CfgVehicles
 	{
 		displayName = "Prednja Desna Vrata";
 		descriptionShort = "Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_2_1.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_2_1.p3d";
 		inventorySlot="RR_Sport_12_dver_2_1";
 		rotationFlags=4;
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 	};
 	class RR_Sport_12_dver_1_2: RR_Sport_12_dver_1_1
 	{
 		displayName = "Zadnja Lijeva Vrata";
 		descriptionShort = "Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_1_2.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_1_2.p3d";
 		inventorySlot="RR_Sport_12_dver_1_2";
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 	};
 	class RR_Sport_12_dver_2_2: RR_Sport_12_dver_1_1
 	{
 		displayName = "Zadnja Desna Vrata";
 		descriptionShort = "Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_2_2.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_2_2.p3d";
 		inventorySlot="RR_Sport_12_dver_2_2";
 		rotationFlags=4;
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 	};
 	class RR_Sport_12_kapot: RR_Sport_12_dver_1_1
@@ -1110,7 +1078,7 @@ class CfgVehicles
 		scope=2;
 		displayName = "Hauba";
 		descriptionShort = "Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_kapot.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_kapot.p3d";
 		weight=10000;
 		itemSize[]={10,10};
 		itemBehaviour=0;
@@ -1124,8 +1092,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 		class DamageSystem
 		{
@@ -1141,8 +1109,8 @@ class CfgVehicles
 							1,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+								"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+								"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 							}
 						},
 						
@@ -1155,8 +1123,8 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+								"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+								"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 							}
 						},
 						
@@ -1169,8 +1137,8 @@ class CfgVehicles
 							0,
 							
 							{
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-								"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+								"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+								"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 							}
 						}
 					};
@@ -1199,7 +1167,7 @@ class CfgVehicles
 		scope=2;
 		displayName = "Gepek";
 		descriptionShort = "Land Rover Sport '12";
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_bagazhnik.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_bagazhnik.p3d";
 		weight=10000;
 		itemSize[]={10,10};
 		itemBehaviour=0;
@@ -1213,8 +1181,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 		class DamageSystem: DamageSystem
 		{
@@ -1234,8 +1202,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_int.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_int.rvmat"
 								}
 							},
 							
@@ -1248,8 +1216,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat"
 								}
 							},
 							
@@ -1257,8 +1225,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat"
 								}
 							},
 							
@@ -1281,8 +1249,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1295,8 +1263,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1309,8 +1277,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -1323,65 +1291,65 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_dver_2_1_Black: RR_Sport_12_dver_2_1
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_dver_1_2_Black: RR_Sport_12_dver_1_2
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_dver_2_2_Black: RR_Sport_12_dver_2_2
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_kapot_Black: RR_Sport_12_kapot
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_bagazhnik_Black: RR_Sport_12_bagazhnik
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_kapot_MVP: RR_Sport_12_kapot
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_kapot_MVP.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_kapot_MVP.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class RR_Sport_12_bagazhnik_MVP: RR_Sport_12_bagazhnik
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer_mvp.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer_mvp.paa"
 		};
 	};
 	class CrSk_Land_Rover_RR_Sport_12: CarScript
@@ -1389,7 +1357,7 @@ class CfgVehicles
 		scope=2;
 		displayname="BW Land Rover";
 		descriptionShort="Balkan Warlords Land Rover,Bijeli, Registracija: BiH, 1000 Slotova Gepek";
-		Model="\CrSk_Land_Rover_RR_Sport_12\CrSk_Land_Rover_RR_Sport_12.p3d";
+		Model="\BW_Gear_Pack_Mod\CrSk_Land_Rover_RR_Sport_12.p3d";
 		attachments[]=
 		{
 			"CarBattery",
@@ -1435,8 +1403,8 @@ class CfgVehicles
 			"",
 			"",
 			"",
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\white.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer.paa"
+			"BW_Gear_Pack_Mod\data\shared\white.paa",
+			"BW_Gear_Pack_Mod\data\nomer.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -1450,16 +1418,16 @@ class CfgVehicles
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat",
 			"dz\vehicles\wheeled\offroadhatchback\data\offroadhatchback_lights.rvmat"
 		};
-		dashboardMatOn="CrSk_Land_Rover_RR_Sport_12\data\car_panels.rvmat";
-		dashboardMatOff="CrSk_Land_Rover_RR_Sport_12\data\shared\default2.rvmat";
-		frontReflectorMatOn="CrSk_Land_Rover_RR_Sport_12\data\car_headlight.rvmat";
-		frontReflectorMatOff="CrSk_Land_Rover_RR_Sport_12\data\fary.rvmat";
-		brakeReflectorMatOn="CrSk_Land_Rover_RR_Sport_12\data\car_brakelight.rvmat";
-		brakeReflectorMatOff="CrSk_Land_Rover_RR_Sport_12\data\fary.rvmat";
-		ReverseReflectorMatOn="CrSk_Land_Rover_RR_Sport_12\data\car_reverse.rvmat";
-		ReverseReflectorMatOff="CrSk_Land_Rover_RR_Sport_12\data\fary.rvmat";
-		TailReflectorMatOn="CrSk_Land_Rover_RR_Sport_12\data\car_rearlight.rvmat";
-		TailReflectorMatOff="CrSk_Land_Rover_RR_Sport_12\data\fary.rvmat";
+		dashboardMatOn="BW_Gear_Pack_Mod\data\car_panels.rvmat";
+		dashboardMatOff="BW_Gear_Pack_Mod\data\shared\default2.rvmat";
+		frontReflectorMatOn="BW_Gear_Pack_Mod\data\car_headlight.rvmat";
+		frontReflectorMatOff="BW_Gear_Pack_Mod\data\fary.rvmat";
+		brakeReflectorMatOn="BW_Gear_Pack_Mod\data\car_brakelight.rvmat";
+		brakeReflectorMatOff="BW_Gear_Pack_Mod\data\fary.rvmat";
+		ReverseReflectorMatOn="BW_Gear_Pack_Mod\data\car_reverse.rvmat";
+		ReverseReflectorMatOff="BW_Gear_Pack_Mod\data\fary.rvmat";
+		TailReflectorMatOn="BW_Gear_Pack_Mod\data\car_rearlight.rvmat";
+		TailReflectorMatOff="BW_Gear_Pack_Mod\data\fary.rvmat";
 		fuelCapacity=87;
 		fuelConsumption=30;
 		class Sounds
@@ -1705,8 +1673,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1714,8 +1682,8 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1723,8 +1691,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1732,8 +1700,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1741,8 +1709,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -1867,8 +1835,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1876,8 +1844,8 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1885,8 +1853,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1894,8 +1862,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1903,8 +1871,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -1943,8 +1911,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1952,8 +1920,8 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1961,8 +1929,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1970,8 +1938,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -1979,8 +1947,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -2009,8 +1977,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -2018,8 +1986,8 @@ class CfgVehicles
 								0.69999999,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -2027,8 +1995,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -2036,8 +2004,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							},
 							
@@ -2045,8 +2013,8 @@ class CfgVehicles
 								0,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glossy.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\chrome_dayz.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glossy.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\chrome_dayz.rvmat"
 								}
 							}
 						};
@@ -2161,8 +2129,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_int.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_int.rvmat"
 								}
 							},
 							
@@ -2175,8 +2143,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat"
 								}
 							},
 							
@@ -2184,8 +2152,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat"
 								}
 							},
 							
@@ -2220,8 +2188,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_int.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_int.rvmat"
 								}
 							},
 							
@@ -2234,8 +2202,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat"
 								}
 							},
 							
@@ -2243,8 +2211,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat"
 								}
 							},
 							
@@ -2279,8 +2247,8 @@ class CfgVehicles
 								1,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_int.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_int.rvmat"
 								}
 							},
 							
@@ -2293,8 +2261,8 @@ class CfgVehicles
 								0.5,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_damage.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_damage.rvmat"
 								}
 							},
 							
@@ -2302,8 +2270,8 @@ class CfgVehicles
 								0.30000001,
 								
 								{
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat",
-									"CrSk_Land_Rover_RR_Sport_12\data\shared\glass_veh_destruct.rvmat"
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat",
+									"BW_Gear_Pack_Mod\data\shared\glass_veh_destruct.rvmat"
 								}
 							},
 							
@@ -2557,8 +2525,8 @@ class CfgVehicles
 			"",
 			"",
 			"",
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer2.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer2.paa"
 		};
 	};
 	class CrSk_Land_Rover_RR_Sport_12_MVP: CrSk_Land_Rover_RR_Sport_12
@@ -2576,8 +2544,8 @@ class CfgVehicles
 			"",
 			"",
 			"",
-			"CrSk_Land_Rover_RR_Sport_12\data\shared\kraska_b.paa",
-			"CrSk_Land_Rover_RR_Sport_12\data\nomer_mvp.paa"
+			"BW_Gear_Pack_Mod\data\shared\kraska_b.paa",
+			"BW_Gear_Pack_Mod\data\nomer_mvp.paa"
 		};
 	};
 };
@@ -2595,7 +2563,7 @@ class CfgNonAIVehicles
 	};
 	class ProxyRR_Sport_12_koleso: ProxyVehiclePart
 	{
-		model="CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_koleso.p3d";
+		model="BW_Gear_Pack_Mod\proxy\RR_Sport_12_koleso.p3d";
 		inventorySlot[]=
 		{
 			"RR_Sport_12_koleso_1_1",
@@ -2607,7 +2575,7 @@ class CfgNonAIVehicles
 	};
 	class ProxyRR_Sport_12_koleso_Ruined: ProxyVehiclePart
 	{
-		model="CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_koleso_Ruined.p3d";
+		model="BW_Gear_Pack_Mod\proxy\RR_Sport_12_koleso_Ruined.p3d";
 		inventorySlot[]=
 		{
 			"RR_Sport_12_koleso_1_1",
@@ -2619,37 +2587,37 @@ class CfgNonAIVehicles
 	};
 	class ProxyRR_Sport_12_dver_1_1: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_1_1.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_1_1.p3d";
 		inventorySlot="RR_Sport_12_dver_1_1";
 	};
 	class ProxyRR_Sport_12_dver_2_1: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_2_1.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_2_1.p3d";
 		inventorySlot="RR_Sport_12_dver_2_1";
 	};
 	class ProxyRR_Sport_12_dver_1_2: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_1_2.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_1_2.p3d";
 		inventorySlot="RR_Sport_12_dver_1_2";
 	};
 	class ProxyRR_Sport_12_dver_2_2: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_dver_2_2.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_dver_2_2.p3d";
 		inventorySlot="RR_Sport_12_dver_2_2";
 	};
 	class ProxyRR_Sport_12_kapot: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_kapot.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_kapot.p3d";
 		inventorySlot="RR_Sport_12_kapot";
 	};
 	class ProxyRR_Sport_12_kapot_MVP: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_kapot_MVP.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_kapot_MVP.p3d";
 		inventorySlot="RR_Sport_12_kapot";
 	};
 	class ProxyRR_Sport_12_bagazhnik: ProxyVehiclePart
 	{
-		model="\CrSk_Land_Rover_RR_Sport_12\proxy\RR_Sport_12_bagazhnik.p3d";
+		model="\BW_Gear_Pack_Mod\proxy\RR_Sport_12_bagazhnik.p3d";
 		inventorySlot="RR_Sport_12_bagazhnik";
 	};
 	class ProxyJerryCan: ProxyVehiclePart
